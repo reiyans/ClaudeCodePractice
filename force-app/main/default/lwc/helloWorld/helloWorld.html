@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="はじめての LWC">
+        <div class="slds-p-around_medium">
+            <p>こんにちは、{greeting} さん！</p>
+            <lightning-input
+                label="名前を入力してください"
+                value={greeting}
+                onchange={handleChange}
+            ></lightning-input>
+        </div>
+    </lightning-card>
+</template>
